@@ -1,0 +1,11 @@
+/* ------------------------------Responsive Media Query Added------------------------------ */
+
+/* --------------------Mobile/Small Device Responsive Added-------------------- */
+@media only screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-links {
+    margin-top: 20px;
+  }
+}
