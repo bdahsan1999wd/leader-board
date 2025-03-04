@@ -4,6 +4,71 @@
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Open Sans", sans-serif; */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 1px solid red;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------------------------Shared Styles Starts Here-------------------------*/
 .text-center {
   text-align: center;
+}
+
+.display-flex {
+  display: flex;
+}
+
+/* -------------------------Shared Styles Ends Here-------------------------*/
+
+/* ---------- Navbar Styles Added ---------- */
+nav {
+  border: 5px solid aqua;
+  max-width: 1440px;
+  background-color: rgb(86, 46, 255);
+  padding: 22px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+.nav-container {
+  border: 1px solid burlywood;
+  max-width: 870px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/* ----- Navbar Left Content----- */
+.nav-logo {
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.nav-logo img {
+  width: 40.42px;
+  height: 51px;
+}
+.nav-logo h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+/* ----- Navbar Right Content ----- */
+.nav-links {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
 }
