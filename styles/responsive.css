@@ -1,11 +1,37 @@
 /* ------------------------------Responsive Media Query Added------------------------------ */
 
 /* --------------------Mobile/Small Device Responsive Added-------------------- */
+
+/* -----Navbar Mobile Responsive Added----- */
 @media only screen and (max-width: 576px) {
+  .section-container {
+    margin: 25px 5px 20px 5px;
+  }
+
   .nav-container {
     flex-direction: column;
   }
   .nav-links {
     margin-top: 20px;
   }
+
+  /* -----Top Player and Blogs Section Mobile Responsive Added----- */
+  .section-title {
+    text-align: center;
+  }
+
+  /* -----Top Player Mobile Responsive Added----- */
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* -----Top Player Mobile Responsive Added----- */
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* --------------------Tablet/Medium Device Responsive Added-------------------- */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  /* -----Tablet/Medium and Desktop/Large Same Responsive----- */
 }
