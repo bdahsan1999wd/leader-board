@@ -10,7 +10,6 @@
 }
 
 body {
-  border: 1px solid red;
   font-family: "Poppins", sans-serif;
 }
 
@@ -34,14 +33,12 @@ body {
 
 /* ---------- Navbar Styles Added ---------- */
 nav {
-  border: 1px solid coral;
   max-width: 1440px;
   background-color: rgb(86, 46, 255);
   margin: 0 auto;
 }
 
 .nav-container {
-  border: 1px solid burlywood;
   max-width: 870px;
   justify-content: space-between;
   margin: 0 auto;
@@ -83,14 +80,14 @@ nav {
 
 /* ---------------Top Player and Blog Section Styles Added--------------- */
 main {
-  border: 1px solid burlywood;
+  padding-top: 1px;
+  padding-bottom: 1px;
   background-color: rgb(243, 241, 255);
   max-width: 1440px;
   margin: 0 auto;
 }
 
 .section-container {
-  border: 1px solid green;
   max-width: 870px;
   margin: 0 auto;
   margin-top: 36px;
@@ -177,10 +174,9 @@ hr {
 
 /* ---------- Latest Course Section Styles Added ---------- */
 .latest-courses-container {
-  border: 1px solid red;
   max-width: 870px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 36px;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
 }
@@ -265,4 +261,20 @@ hr {
   font-size: 0.918rem;
   font-weight: 600;
   line-height: 20px;
+}
+
+/* -----Footer Section Styles Added----- */
+#footer {
+  background-color: rgb(255, 228, 232);
+  max-width: 1440px;
+  text-align: center;
+  color: gray;
+  font-size: 1.25rem;
+  margin: 0 auto;
+}
+
+#footer p {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 25px;
 }
